@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# raw catalog sources (large; regenerate with `npm run data`)
+tools/hyg.csv
+
+# generated screenshots / scratch
+tools/shot*.png
+
+# logs & os
+*.log
+.DS_Store
+Thumbs.db
+
+# python virtualenv
+.venv/
+
+# PyCharm project metadata
+.idea/
+
+# local Claude Code dev tooling (per-machine, not project config)
+.claude/

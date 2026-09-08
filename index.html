@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#05060f" />
+    <title>Virtual Observatory — a planetarium in your browser</title>
+    <meta name="description" content="A real-time virtual astronomy observatory: 9,000 stars, 88 constellations, planets, the Moon and deep-sky objects, computed live for any time and place." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- ANTIGRAVITY: WP-A -->
+    <script src="/js/data/extra.js"></script>
+    <!-- ANTIGRAVITY: WP-B -->
+    <script src="/js/features/telescope.js"></script>
+    <!-- ANTIGRAVITY: WP-C — superseded by the "What's Up Tonight" tab
+         (src/components/WhatsUpTonight.jsx); no longer mounted, file kept
+         in place per file-ownership rules in migration.md. -->
+  </body>
+</html>
